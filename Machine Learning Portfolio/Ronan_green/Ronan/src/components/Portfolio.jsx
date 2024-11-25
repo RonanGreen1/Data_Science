@@ -5,9 +5,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
   // init one ref to store the future isotope object
   const isotope = useRef();
   // store the filter keyword in a state
-  const [filterKey, setFilterKey] = useState("*");
   const [imagesLoaded, setimagesLoaded] = useState(0);
-  const [selectedProjectDetails, setSelectedProjectDetails] = useState();
 
   const filters = {
     DESIGN: "Desing",
@@ -76,17 +74,6 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     };
   }, []);
 
-  // handling filter key change
-  useEffect(() => {
-    if (imagesLoaded) {
-      filterKey === "*"
-        ? isotope.current.arrange({ filter: `*` })
-        : isotope.current.arrange({ filter: `.${filterKey}` });
-    }
-  }, [filterKey, imagesLoaded]);
-
-  const handleFilterKeyChange = (key) => () => setFilterKey(key);
-
   return (
     <>
       <section
@@ -138,15 +125,6 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
                           alt=""
                         />
                         <div className="portfolio-overlay">
-                          <a
-                            className="popup-ajax stretched-link"
-                            href=""
-                            onClick={() => {
-                              setSelectedProjectDetails(projectsData[index]);
-                            }}
-                            data-bs-toggle="modal"
-                            data-bs-target="#exampleModal"
-                          />
                           <div className="portfolio-overlay-details">
                             <h5 className="text-white fw-400">
                               {project.title}
@@ -165,7 +143,6 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       <div className="project-details-modal">
         {/* Modal */}
         <ProjectDetailsModal
-          projectDetails={selectedProjectDetails}
           darkTheme={darkTheme}
         ></ProjectDetailsModal>
       </div>

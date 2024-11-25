@@ -1,6 +1,5 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import videobg from "../videos/home.mp4";
 
 const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
   return (
