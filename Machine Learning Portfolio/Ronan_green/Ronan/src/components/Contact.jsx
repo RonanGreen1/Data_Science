@@ -101,7 +101,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
               <span className="text-primary text-4 me-2">
                 <i className="fas fa-phone" />
               </span>
-              (+353) 087 294 9042
+              (+353) 087 315 1542
             </p>
             <p className={"text-3 mb-4 " + (darkTheme ? "text-light" : "")}>
               <span className="text-primary text-4 me-2">
