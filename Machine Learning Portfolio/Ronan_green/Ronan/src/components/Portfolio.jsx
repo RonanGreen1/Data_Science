@@ -61,6 +61,67 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       ],
       categories: [filters.PHOTOS],
     },
+
+    {
+      title: "Bayesian Classifier Model",
+      projectInfo:
+        "Implementation of a Bayesian classifier for probabilistic classification tasks. The project includes data preprocessing, model training, and evaluation using confusion matrices and accuracy metrics.",
+      technologies: "Python, Jupyter Notebook, pandas, NumPy, scikit-learn, Matplotlib",
+      url: {
+        name: "GitHub Repository",
+        link: "https://github.com/RonanGreen1/Data_Science/tree/main/Bay_Class",
+      },
+      thumbImage: "images/projects/project-4.jpg",
+      sliderImages: [
+        "images/projects/project-4.jpg",
+      ],
+      categories: [filters.ANALYTICS],
+    },
+    {
+      title: "K-Means Clustering Model",
+      projectInfo:
+        "A clustering model using K-Means to identify patterns and natural groupings within data. The project explores the Elbow Method, PCA for dimensionality reduction, and visualization of clustered data.",
+      technologies: "Python, Jupyter Notebook, pandas, scikit-learn, Matplotlib, seaborn",
+      url: {
+        name: "GitHub Repository",
+        link: "https://github.com/RonanGreen1/Data_Science/tree/main/K_Clustering",
+      },
+      thumbImage: "images/projects/project-5.jpg",
+      sliderImages: [
+        "images/projects/project-5.jpg",
+      ],
+      categories: [filters.CLUSTERING],
+    },
+    {
+      title: "K-Nearest Neighbour Model",
+      projectInfo:
+        "This project applies the K-Nearest Neighbour (KNN) algorithm for classification. It includes hyperparameter tuning, distance metrics comparison, and handling imbalanced datasets using SMOTE and weighted KNN.",
+      technologies: "Python, Jupyter Notebook, pandas, NumPy, scikit-learn, Matplotlib",
+      url: {
+        name: "GitHub Repository",
+        link: "https://github.com/RonanGreen1/Data_Science/tree/main/K_Nearest",
+      },
+      thumbImage: "images/projects/project-6.jpg",
+      sliderImages: [
+        "images/projects/project-6.jpg",
+      ],
+      categories: [filters.CLASSIFICATION],
+    },
+    {
+      title: "Support Vector Machine (SVM) Model",
+      projectInfo:
+        "Implementation of an SVM classifier for data classification, exploring different kernels (linear and polynomial). The project examines hyperparameter tuning and evaluates performance with precision-recall metrics.",
+      technologies: "Python, Jupyter Notebook, pandas, scikit-learn",
+      url: {
+        name: "GitHub Repository",
+        link: "https://github.com/RonanGreen1/Data_Science/tree/main/SVM",
+      },
+      thumbImage: "images/projects/project-7.jpg",
+      sliderImages: [
+        "images/projects/project-7.jpg",
+      ],
+      categories: [filters.MACHINE_LEARNING],
+    },
   ];
 
   // initialize an Isotope object with configs
