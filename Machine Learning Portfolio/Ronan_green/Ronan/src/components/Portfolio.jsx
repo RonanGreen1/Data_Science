@@ -122,6 +122,52 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       ],
       categories: [filters.MACHINE_LEARNING],
     },
+    {
+      title: "Supervised Neural Network (SNN) Model",
+      projectInfo:
+        "Development of a supervised neural network using Keras to predict concrete compressive strength. The model uses dense layers, ReLU activations, and evaluates accuracy using R² score and mean absolute error.",
+      technologies: "Python, Jupyter Notebook, TensorFlow, Keras, pandas",
+      url: {
+        name: "GitHub Repository",
+        link: "https://github.com/RonanGreen1/Data_Science/tree/main/SNN",
+      },
+      thumbImage: "images/projects/project-8.jpg",
+      sliderImages: [
+        "images/projects/project-8.jpg",
+      ],
+      categories: [filters.MACHINE_LEARNING],
+    },
+    {
+      title: "Reinforcement Neural Network (RNN) Model",
+      projectInfo:
+        "A reinforcement learning model built with a deep Q-network (DQN) to solve the OpenAI Gym CartPole-v1 environment. The project uses experience replay, target Q-learning, and epsilon-greedy exploration.",
+      technologies: "Python, Jupyter Notebook, TensorFlow, Keras, OpenAI Gym",
+      url: {
+        name: "GitHub Repository",
+        link: "https://github.com/RonanGreen1/Data_Science/tree/main/RNN",
+      },
+      thumbImage: "images/projects/project-9.jpg",
+      sliderImages: [
+        "images/projects/project-9.jpg",
+      ],
+      categories: [filters.MACHINE_LEARNING],
+    },
+    {
+      title: "AI Image Classification CNN Model",
+      projectInfo:
+        "An AI-powered convolutional neural network trained on the CIFAR-10 dataset. The project uses convolutional and pooling layers with data augmentation and learning rate decay to classify 10 image categories.",
+      technologies: "Python, Jupyter Notebook, TensorFlow, Keras, matplotlib",
+      url: {
+        name: "GitHub Repository",
+        link: "https://github.com/RonanGreen1/Data_Science/tree/main/AIMODEL",
+      },
+      thumbImage: "images/projects/project-10.jpg",
+      sliderImages: [
+        "images/projects/project-10.jpg",
+      ],
+      categories: [filters.MACHINE_LEARNING],
+    },
+    
   ];
 
   // initialize an Isotope object with configs
