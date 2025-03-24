@@ -129,7 +129,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       technologies: "Python, Jupyter Notebook, TensorFlow, Keras, pandas",
       url: {
         name: "GitHub Repository",
-        link: "https://github.com/RonanGreen1/Data_Science/tree/main/SNN",
+        link: "https://github.com/RonanGreen1/Data_Science/tree/main/Supervised%20Neural%20Network",
       },
       thumbImage: "images/projects/project-8.jpg",
       sliderImages: [
@@ -144,7 +144,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       technologies: "Python, Jupyter Notebook, TensorFlow, Keras, OpenAI Gym",
       url: {
         name: "GitHub Repository",
-        link: "https://github.com/RonanGreen1/Data_Science/tree/main/RNN",
+        link: "https://github.com/RonanGreen1/Data_Science/tree/main/Reinforced%20Neural%20Network/RNN",
       },
       thumbImage: "images/projects/project-9.jpg",
       sliderImages: [
@@ -159,7 +159,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       technologies: "Python, Jupyter Notebook, TensorFlow, Keras, matplotlib",
       url: {
         name: "GitHub Repository",
-        link: "https://github.com/RonanGreen1/Data_Science/tree/main/AIMODEL",
+        link: "https://github.com/RonanGreen1/Data_Science/tree/main/Ai%20Model",
       },
       thumbImage: "images/projects/project-10.jpg",
       sliderImages: [
